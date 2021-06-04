@@ -1,0 +1,38 @@
+.gant-task {
+  &__area {
+    position: relative;
+    height: calc(100vh - 61px);
+    overflow: auto;
+  }
+  &__scale {
+    background-color: #2b343b;
+    z-index: 1;
+    color: #a6a6a6;
+    position: relative;
+    &__cell {
+      position: absolute;
+      text-align: center;
+    }
+    &__line {
+      display: flex;
+      position: relative;
+
+      & + & {
+        border-top: 1px solid #000;
+      }
+    }
+  }
+}
+
+.task-content {
+  background-color: #2b343b;
+  background-image: url("../../../../assets/images/gantt-day-bg.png");
+  &__row {
+    //background-color: #2b343b;
+    height: 20px;
+    cursor: pointer;
+    &:hover {
+      background-color: lighten(#2b343b, 50);;
+    }
+  }
+}

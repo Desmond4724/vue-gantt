@@ -1,0 +1,25 @@
+.task-box {
+  height: 20px;
+  width: 150px;
+  background: red;
+  position: absolute;
+  border: 1px solid #000;
+  user-select: none;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  &__handle {
+    position: absolute;
+    cursor: e-resize;
+    top: 0;
+    &-left {
+      left: 0;
+    }
+    &-right {
+      right: 0;
+    }
+  }
+}
