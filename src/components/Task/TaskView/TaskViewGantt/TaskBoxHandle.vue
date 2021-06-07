@@ -3,7 +3,7 @@
 		ref="wrap"
 		@mousedown="mouseDown"
 		class="task-box__handle">
-		<svg xmlns="http://www.w3.org/2000/svg" width="5" height="8" fill="none" style="&#10;    background: red;&#10;">
+		<svg xmlns="http://www.w3.org/2000/svg" width="5" height="8" fill="none">
 			<path fill-rule="evenodd" clip-rule="evenodd"
 			      d="M1 0a1 1 0 100 2 1 1 0 000-2zm3 0a1 1 0 100 2 1 1 0 000-2zM0 4a1 1 0 112 0 1 1 0 01-2 0zm4-1a1 1 0 100 2 1 1 0 000-2zM0 7a1 1 0 112 0 1 1 0 01-2 0zm4-1a1 1 0 100 2 1 1 0 000-2z"
 			      fill="#fff"/>

@@ -27,6 +27,7 @@
 .task-content {
   background-color: #2b343b;
   background-image: url("../../../../assets/images/gantt-day-bg.png");
+  height: calc(100vh - 61px);
   &__row {
     //background-color: #2b343b;
     height: 20px;
